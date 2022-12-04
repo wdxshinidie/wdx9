@@ -1,0 +1,1488 @@
+/* 1.=========== 顶部=========== */
+
+
+/* 外部顶层容器 */
+
+.topbar {
+    height: 28px;
+    background-color: black;
+}
+
+
+/* 顶部里层容器 */
+
+.topbar .container {
+    height: 28px;
+    background-color: black;
+}
+
+
+/* 里面的p标签 */
+
+.topbar .container p {
+    /* margin-top: 0px; */
+    height: 28px;
+    line-height: 28px;
+    color: white;
+}
+
+
+/* 第一个p标签 */
+
+.topbar .container p:first-child {
+    text-indent: 220px;
+}
+
+
+/* 1p标签的a标签 */
+
+.topbar .container p:first-child a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* 第二个p标签 */
+
+.topbar .container p:nth-child(2) {
+    margin-right: 5px;
+}
+
+
+/* 第二个p标签的标题和注册 */
+
+.topbar .container p:nth-child(2) .title,
+.topbar .container p:nth-child(2) .register {
+    color: orange;
+}
+
+
+/* 2p标签下的登录 */
+
+.topbar .container p:nth-child(2) .login {
+    color: white;
+}
+
+
+/* 乐购颜色 */
+
+.topbar .container p:nth-child(2) .legou {
+    color: orange;
+}
+
+
+/* 2.========== 导航 ========= */
+
+.nav {
+    height: 80px;
+    background-color: white;
+}
+
+
+/* 搜索购物车订单大容器 */
+
+.nav .search-shopcart-order {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+
+/* 搜索框 */
+
+.nav .search-shopcart-order .search-input {
+    width: 440px;
+    height: 35px;
+    background-color: orange;
+    margin-right: 38px;
+    position: relative;
+}
+
+
+/* 搜索图标span */
+
+.nav .search-shopcart-order .search-input span {
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url("../images/bgicon.png");
+}
+
+
+/* 搜索框 */
+
+.nav .search-shopcart-order .search-input .search {
+    width: 390px;
+    height: 31px;
+    border: 2px solid orange;
+    text-indent: 10px;
+    color: #ccc;
+    outline: none;
+}
+
+
+/* 购物车和订单 */
+
+.nav .search-shopcart-order .shopcart-order {
+    width: 200px;
+    height: 35px;
+    font-size: 0;
+}
+
+
+/* 购物车订单按钮 */
+
+.nav .search-shopcart-order .shopcart-order button {
+    width: 100px;
+    height: 35px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    font-size: 9px;
+    color: #333;
+}
+
+
+/* 购物车按钮 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) {
+    background-color: #ff6700;
+    color: white;
+}
+
+
+/* 购物车图标 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:first-child {
+    background-image: url("../images/gwc.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    margin-right: 3px;
+}
+
+
+/* 购物车文字 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(2) {
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+/* 数量文字 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(3) {
+    vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    margin-left: 15px;
+}
+
+
+/* 分类导航 */
+
+.nav .category-menu {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.nav .category-menu .left-logo {
+    width: 200px;
+    height: 30px;
+    position: relative;
+}
+
+.nav .category-menu .left-logo img {
+    position: absolute;
+    bottom: 0;
+    /* top: -83px; */
+    left: 0;
+}
+
+.nav .category-menu ul {
+    width: 1000px;
+    height: 30px;
+}
+
+.nav .category-menu ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* 3. ======== 分类导航和banner ======== */
+
+.menu {
+    height: 430px;
+}
+
+.menu .sideMenu {
+    height: 430px;
+    width: 200px;
+}
+
+.menu .sideMenu ul {
+    height: 430px;
+    width: 200px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.menu .sideMenu ul li {
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    text-indent: 20px;
+}
+
+.menu .sideMenu ul li a {
+    color: #353535;
+    text-decoration: none;
+}
+
+.menu .sideMenu ul li a:hover {
+    color: #ff6700;
+}
+
+.menu .sideMenu ul li:hover {
+    background-color: #fff;
+}
+
+.menu .sideMenu ul li .title {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu .sideMenu ul li:hover .title {
+    background-color: #fff;
+    position: absolute;
+    z-index: 99;
+}
+
+.menu .sideMenu ul li:hover .subMenu {
+    display: block;
+}
+
+.menu .sideMenu ul li .subMenu {
+    position: absolute;
+    top: 0;
+    left: 198px;
+    border: 2px solid #ff6700;
+    background-color: white;
+    width: 500px;
+    height: 426px;
+    display: none;
+}
+
+.menu .banner {
+    height: 430px;
+    width: 1000px;
+}
+
+
+/* 4. ====== 今日推荐 ====== */
+
+.recommend {
+    height: 544px;
+}
+
+
+/* 标题 */
+
+.recommend .title {
+    height: 40px;
+    width: 1200px;
+    margin-top: 10px;
+    background-color: #fff;
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ff6700;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/* 推荐内容 */
+
+.recommend .recommend-content {
+    width: 1190px;
+    height: 498px;
+    margin: 0 auto;
+    background-color: #ff6700;
+}
+
+
+/* 列表容器 */
+
+.recommend .recommend-content ul {
+    width: 1190px;
+    height: 498px;
+    margin: 0 auto;
+}
+
+
+/* 推荐列表li */
+
+.recommend .recommend-content ul li {
+    width: 196px;
+    height: 247px;
+    background-color: #fff;
+    float: left;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+
+/* 整体居中 */
+
+.recommend .recommend-content ul li {
+    text-align: center;
+}
+
+
+/* p标签样式 */
+
+.recommend .recommend-content ul li p {
+    text-align: left;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+
+/* 限时 */
+
+.recommend .recommend-content ul li p.limit-time {
+    text-align: left;
+    text-indent: 0;
+}
+
+
+/* 全国联保 */
+
+.recommend .recommend-content ul li p.text {
+    color: red;
+}
+
+
+/* 价格 */
+
+.recommend .recommend-content ul li p.price {
+    color: red;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
+/* 文字 */
+
+
+/* 5.======电子书====== */
+
+.ebooks {
+    height: 496px;
+    margin-top: 34px;
+}
+
+
+/* 左侧盒子 */
+
+.ebooks .left-box {
+    width: 906px;
+    height: 496px;
+}
+
+
+/* 顶部 */
+
+.ebooks .left-box .top {
+    width: 906px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/* 顶部标题 */
+
+.ebooks .left-box .top .title {
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ff6700;
+}
+
+
+/* 顶部右侧标题导航 */
+
+.ebooks .left-box .top ul li {
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* 右侧激活类 */
+
+.ebooks .left-box .top ul li.active {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+
+/* 下部分内容  */
+
+.ebooks .left-box .content {
+    height: 450px;
+    width: 906px;
+    background-color: #ccc;
+}
+
+
+/* 左侧广告 */
+
+.ebooks .left-box .content .ad {
+    height: 450px;
+    width: 236px;
+    background-color: #f9f9f9;
+}
+
+.ebooks .left-box .content .ad .top-img {
+    width: 236px;
+    height: 290px;
+}
+
+.ebooks .left-box .content .ad .bottom-text {
+    height: 160px;
+    width: 290px;
+}
+
+.ebooks .left-box .content .ad .bottom-text ul {
+    width: 235px;
+    height: 160px;
+    margin-left: 1px;
+}
+
+.ebooks .left-box .content .ad .bottom-text ul li {
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+
+/* 右侧图书列表 */
+
+.ebooks .left-box .content .ebooks-list {
+    height: 450px;
+    width: 670px;
+    background-color: #ccc;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li {
+    float: left;
+    height: 223px;
+    width: 165px;
+    background-color: #fff;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li>p {
+    text-align: left;
+    text-indent: 10px;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li>p:first-child {
+    font-size: 18px;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li>img {
+    margin: 15px auto;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li>p:not(:first-child) {
+    color: red;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li>p:first-child {
+    margin-top: 10px;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li:not(:first-child) {
+    float: inline-end;
+}
+
+.ebooks .left-box .content .ebooks-list>ul>li>p:last-child {
+    font-size: 18px;
+}
+
+
+/* 电子书轮播 */
+
+.ebooks .left-box .content .ebooks-list ul li:first-child {
+    width: 332px;
+    height: 223px;
+}
+
+.ebooks .left-box .content .ebooks-list ul li:first-child .pptbox {
+    width: 332px;
+    height: 223px;
+    z-index: 1;
+}
+
+
+/* 右侧盒子 */
+
+.ebooks .right-box {
+    width: 286px;
+    height: 456px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    /* 变为怪异盒子 */
+    box-sizing: border-box;
+}
+
+.ebooks .right-box .title {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #333;
+}
+
+.ebooks .right-box ul li {
+    line-height: 42px;
+    font-size: 16px;
+    text-indent: 5px;
+}
+
+.ebooks .right-box ul li .desc img {
+    margin-right: 9px;
+}
+
+
+/* 新书列表交互相关样式 */
+
+.ebooks .right-box ul li .desc {
+    font-size: 14px;
+    line-height: 16px;
+    height: 150px;
+    color: #333;
+    /* 隐藏:默认所有的隐藏，只有第一个显示 */
+    display: none;
+}
+
+.ebooks .right-box ul li:first-child .ebooks-title {
+    /* 默认所有标题显示，第一个隐藏 */
+    display: none;
+}
+
+.ebooks .right-box ul li:first-child .desc {
+    display: block;
+}
+
+
+/* 6.======服装====== */
+
+.clothes {
+    height: 496px;
+    width: 1200px;
+    margin-top: 34px;
+}
+
+
+/* 左侧盒子 */
+
+.clothes .left-box {
+    width: 906px;
+    height: 496px;
+}
+
+
+/* 顶部 */
+
+.clothes .left-box .top {
+    width: 1200px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #fff;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/* 顶部标题 */
+
+.clothes .left-box .top .title {
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    /* color: #ff6700; */
+}
+
+
+/* 顶部右侧标题导航 */
+
+.clothes .left-box .top ul li {
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* 右侧激活类 */
+
+.clothes .left-box .top ul li.active {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+
+/* 下部分内容  */
+
+.clothes .left-box .content {
+    height: 502px;
+    width: 1200px;
+    background-color: #ccc;
+}
+
+
+/* 左侧广告 */
+
+.clothes .left-box .content .ad {
+    height: 502px;
+    width: 240px;
+    background-color: #f9f9f9;
+}
+
+.clothes .left-box .content .ad .top-img {
+    width: 242px;
+    height: 353px;
+}
+
+.clothes .left-box .content .ad .bottom-text {
+    height: 160px;
+    width: 290px;
+}
+
+.clothes .left-box .content .ad .bottom-text ul {
+    width: 235px;
+    height: 160px;
+    margin-left: 1px;
+}
+
+.clothes .left-box .content .ad .bottom-text ul li {
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+
+/* 右侧图书列表 */
+
+.clothes .left-box .content .clothes-list {
+    height: 340px;
+    width: 427px;
+    background-color: #ccc;
+}
+
+.clothes .left-box .content .right-list {
+    width: 532px;
+    height: 340px;
+}
+
+.clothes .left-box .right-list>ul>li {
+    float: right;
+    height: 340px;
+    width: 174px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.clothes .left-box .content .clothes-list .sq {
+    float: left;
+    height: 162px;
+    width: 432px;
+    background-color: #fff;
+}
+
+.clothes .left-box .content .down {
+    float: right;
+    width: 528px;
+    height: 162px;
+}
+
+.clothes .left-box .content .down>ul>li {
+    float: left;
+    height: 159px;
+    width: 174px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* 电子书轮播 */
+
+.clothes .left-box .content .clothes-list .pptbox {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.clothes .left-box .content .clothes-list ul li:first-child {
+    width: 432px;
+    height: 340px;
+}
+
+.clothes .left-box .content .clothes-list ul li:first-child .pptbox {
+    width: 432px;
+    height: 340px;
+    z-index: 1;
+}
+
+
+/* 底部商标 */
+
+.clothes .left-box .ds {
+    width: 1200px;
+    height: 63px;
+}
+
+.clothes .left-box .ds>ul>li {
+    list-style: none;
+    float: left;
+}
+
+
+/* 7.======运动服装====== */
+
+.sprot {
+    height: 496px;
+    width: 1200px;
+    margin-top: 150px;
+}
+
+
+/* 左侧盒子 */
+
+.sprot .left-box {
+    width: 906px;
+    height: 496px;
+}
+
+
+/* 顶部 */
+
+.sprot .left-box .top {
+    width: 1200px;
+    height: 43px;
+    line-height: 43px;
+    background-color: #fff;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/* 顶部标题 */
+
+.sprot .left-box .top .title {
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    /* color: #ff6700; */
+}
+
+
+/* 顶部右侧标题导航 */
+
+.sprot .left-box .top ul li {
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* 右侧激活类 */
+
+.sprot .left-box .top ul li.active {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+
+/* 下部分内容  */
+
+.sprot .left-box .content {
+    height: 502px;
+    width: 1200px;
+    background-color: #ccc;
+}
+
+
+/* 左侧广告 */
+
+.sprot .left-box .content .ad {
+    height: 502px;
+    width: 240px;
+    background-color: #f9f9f9;
+}
+
+.sprot .left-box .content .ad .top-img {
+    width: 242px;
+    height: 353px;
+}
+
+.sprot .left-box .content .ad .bottom-text {
+    height: 160px;
+    width: 290px;
+}
+
+.sprot .left-box .content .ad .bottom-text ul {
+    width: 235px;
+    height: 160px;
+    margin-left: 1px;
+}
+
+.sprot .left-box .content .ad .bottom-text ul li {
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+
+/* 右侧图书列表 */
+
+.sprot .left-box .content .sprot-list {
+    height: 340px;
+    width: 427px;
+    background-color: #ccc;
+}
+
+.sprot .left-box .content .right-list {
+    width: 532px;
+    height: 340px;
+}
+
+.sprot .left-box .right-list>ul>li {
+    float: right;
+    height: 340px;
+    width: 174px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.sprot .left-box .content .sprot-list .sq {
+    float: left;
+    height: 162px;
+    width: 432px;
+}
+
+.sprot .left-box .content .down {
+    float: right;
+    width: 528px;
+    height: 162px;
+}
+
+.sprot .left-box .content .down>ul>li {
+    float: left;
+    height: 159px;
+    width: 174px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* 电子书轮播 */
+
+.sprot .left-box .content .sprot-list .pptbox {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.sprot .left-box .content .sprot-list ul li:first-child {
+    width: 432px;
+    height: 340px;
+}
+
+.sprot .left-box .content .sprot-list ul li:first-child .pptbox {
+    width: 432px;
+    height: 340px;
+    z-index: 1;
+}
+
+
+/* 底部商标 */
+
+.sprot .left-box .ds {
+    width: 1200px;
+    height: 63px;
+}
+
+.sprot .left-box .ds>ul>li {
+    list-style: none;
+    float: left;
+}
+
+
+/* 7.======童装====== */
+
+.children-clothes {
+    height: 496px;
+    width: 1200px;
+    margin-top: 150px;
+}
+
+
+/* 左侧盒子 */
+
+.children-clothes .left-box {
+    width: 906px;
+    height: 496px;
+}
+
+
+/* 顶部 */
+
+.children-clothes .left-box .top {
+    width: 1200px;
+    height: 43px;
+    line-height: 45px;
+    background-color: #fff;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/* 顶部标题 */
+
+.children-clothes .left-box .top .title {
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    /* color: #ff6700; */
+}
+
+
+/* 顶部右侧标题导航 */
+
+.children-clothes .left-box .top ul li {
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* 右侧激活类 */
+
+.children-clothes .left-box .top ul li.active {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+
+/* 下部分内容  */
+
+.children-clothes .left-box .content {
+    height: 502px;
+    width: 1200px;
+    background-color: #ccc;
+}
+
+
+/* 左侧广告 */
+
+.children-clothes .left-box .content .ad {
+    height: 502px;
+    width: 240px;
+    background-color: #f9f9f9;
+}
+
+.children-clothes .left-box .content .ad .top-img {
+    width: 242px;
+    height: 353px;
+}
+
+.children-clothes .left-box .content .ad .bottom-text {
+    height: 160px;
+    width: 290px;
+}
+
+.children-clothes .left-box .content .ad .bottom-text ul {
+    width: 235px;
+    height: 160px;
+    margin-left: 1px;
+}
+
+.children-clothes .left-box .content .ad .bottom-text ul li {
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+
+/* 右侧图书列表 */
+
+.children-clothes .left-box .content .sprot-list {
+    height: 340px;
+    width: 427px;
+    background-color: #ccc;
+}
+
+.children-clothes .left-box .content .right-list {
+    width: 532px;
+    height: 340px;
+}
+
+.children-clothes .left-box .right-list>ul>li {
+    float: right;
+    height: 340px;
+    width: 174px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.children-clothes .left-box .content .sprot-list .sq {
+    float: left;
+    height: 162px;
+    width: 432px;
+}
+
+.children-clothes .left-box .content .down {
+    float: right;
+    width: 528px;
+    height: 162px;
+}
+
+.children-clothes .left-box .content .down>ul>li {
+    float: left;
+    height: 159px;
+    width: 174px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* 电子书轮播 */
+
+.children-clothes .left-box .content .sprot-list .pptbox {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.children-clothes .left-box .content .sprot-list ul li:first-child {
+    width: 432px;
+    height: 340px;
+}
+
+.children-clothes .left-box .content .sprot-list ul li:first-child .pptbox {
+    width: 432px;
+    height: 340px;
+    z-index: 1;
+}
+
+.children-clothes .left-box .ds {
+    width: 1200px;
+    height: 63px;
+}
+
+.children-clothes .left-box .ds>ul>li {
+    list-style: none;
+    float: left;
+}
+
+
+/* 7.======家居日用====== */
+
+#gear {
+    margin-top: 150px;
+    height: 550px;
+    margin-bottom: 50px;
+}
+
+#gear #gearTop {
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    border-bottom: #ff6700 6px solid;
+}
+
+#gearMiddle>div {
+    float: left;
+    border: 2px solid #ccc;
+    border-top: 0;
+}
+
+#gearMiddle>div:first-child {
+    width: 488px;
+    height: 502px;
+    background-image: none;
+}
+
+#gearMiddle>div:first-child>img {
+    width: 487px;
+    height: 502px;
+}
+
+#gearMiddle .dTop {
+    width: 175px;
+    height: 340px;
+}
+
+#gearMiddle .dBottom {
+    width: 175px;
+    height: 160px;
+}
+
+#gearMiddle div:not(.br) {
+    border-right: 0;
+}
+
+
+/* 7.======推广商品====== */
+
+.promode {
+    height: 500px;
+}
+
+.promode .promode-name {
+    border-bottom: #ff6700 6px solid;
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.promode .promode-name ul li.active {
+    background-color: #ff6700;
+}
+
+.promode .promode-name ul li {
+    background-color: lightgray;
+    height: 12px;
+    width: 12px;
+    border-radius: 50% 50%;
+    margin-right: 15px;
+    margin-top: 20px;
+    float: left;
+}
+
+.promode .promode-producte {
+    height: 480px;
+    background-color: white;
+}
+
+
+/* 外盒子 */
+
+.promode .promode-producte .out-box {
+    width: 1200px;
+    height: 480px;
+    overflow: hidden;
+}
+
+
+/* 内盒子 */
+
+.promode .promode-producte .out-box .inner-box {
+    width: 2400px;
+    height: 480px;
+    position: relative;
+    left: 0;
+}
+
+.promode .promode-producte ul {
+    width: 1200px;
+    height: 480px;
+    float: left;
+}
+
+.promode .promode-producte ul li {
+    width: 238px;
+    height: 237px;
+    float: left;
+    text-align: center;
+}
+
+.promode .promode-producte ul li p~p {
+    font-size: 18px;
+    color: red;
+}
+
+.promode .promode-producte ul li .pinlun {
+    margin-left: 57px;
+}
+
+.promode .promode-producte ul li .pinlun img {
+    float: left;
+}
+
+.promode .promode-producte ul li .pinlun p {
+    float: left;
+}
+
+.promode .promode-producte ul li .pinlun p span {
+    color: red;
+}
+
+
+/* footer */
+
+.footer {
+    width: auto;
+    height: 472px;
+    margin-top: 50px;
+}
+
+#footerTop {
+    width: auto;
+    padding-top: 0%;
+    line-height: 50px;
+    height: 100px;
+    border-top: 6px solid #f60;
+    background: #f2f2f2;
+}
+
+#footerTop .container img {
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+#footerTop>div {
+    box-sizing: border-box;
+    padding: 24px 160px;
+}
+
+#footerMiddle>div {
+    width: 790px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+#footerMiddle ul {
+    margin-left: -50px;
+}
+
+#footerMiddle li {
+    width: 120px;
+    height: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#footerMiddle div img {
+    position: absolute;
+    right: -190px;
+}
+
+#footerMiddle li>a {
+    font-size: 16px;
+    color: #666;
+}
+
+#footerMiddle li>a.lia {
+    font-size: 18px;
+    color: #000;
+}
+
+#footerMiddle>p {
+    margin-top: 15px;
+    width: 890px;
+    height: 15px;
+    margin: 0 auto;
+    margin-left: 140px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#footerMiddle>p>a {
+    border-right: 1px solid #333;
+    float: left;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+#footerMiddle>p>a:not(:nth-of-type(2)) {
+    width: 100px;
+}
+
+#footerMiddle>p>a:last-of-type {
+    border-right: 0;
+}
+
+#footerMiddle>span {
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+    margin-left: 375px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/*====返回顶部====*/
+
+.backToTop {
+    width: 30px;
+    height: 50px;
+    /*====定位====*/
+    position: fixed;
+    bottom: 100px;
+    left: 610px;
+    margin-left: 50%;
+    /*===默认隐藏*/
+    display: none;
+}
+
+.backToTop img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*====二维码====*/
+
+.qr-code {
+    width: 40px;
+    height: 180px;
+    /*定位*/
+    position: fixed;
+    top: 185px;
+    right: 0;
+}
+
+.qr-code p {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+}
+
+.qr-code p img {
+    width: 100%;
+    height: 100%;
+}
+
+.qr-code p:nth-child(2) {
+    height: 100px;
+    background-color: deeppink;
+}
+
+.qr-code div {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: -10;
+}
+
+
+/*===顶部搜索框交互===*/
+
+.top-search-box {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(255, 123, 0, .8);
+    /*定位*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*默认隐藏*/
+    display: none;
+}
+
+.top-search-box .search-box {
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ff6700;
+    margin: 10px auto;
+    background-image: url('../images/bgicon.png');
+    background-repeat: no-repeat;
+    background-position: 356px -2px;
+}
+
+.top-search-box .search-box input {
+    height: 26px;
+    width: 360px;
+    border: 2px solid #ff6700;
+    outline: none;
+    text-indent: 10px;
+}
+
+
+/*楼层滚动样式*/
+
+.floor {
+    width: 40px;
+    height: 200px;
+    background-color: #f2f2f2;
+    position: fixed;
+    margin-left: 50%;
+    left: -640px;
+    top: 200px;
+}
+
+.floor li {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    /*设置过度效果*/
+    transition: all 0.3s;
+}
+
+.floor li:hover {
+    width: 80px;
+    color: #fff;
+    background-color: #93d56f;
+}
+
+.floor li img {
+    width: 40px;
+    height: 40px;
+}

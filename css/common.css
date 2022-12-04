@@ -1,0 +1,353 @@
+/* 清除浮动 */
+
+.clearfix::after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    clear: both;
+}
+
+
+/* 左浮动 */
+
+.fl {
+    float: left;
+}
+
+
+/* 右浮动 */
+
+.fr {
+    float: right;
+}
+
+
+/* 版心 */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 外部顶层容器 */
+
+.topbar {
+    height: 28px;
+    background-color: black;
+}
+
+
+/* 顶部里层容器 */
+
+.topbar .container {
+    height: 28px;
+    background-color: black;
+}
+
+
+/* 里面的p标签 */
+
+.topbar .container p {
+    /* margin-top: 0px; */
+    height: 28px;
+    line-height: 28px;
+    color: white;
+}
+
+
+/* 第一个p标签 */
+
+.topbar .container p:first-child {
+    text-indent: 220px;
+}
+
+
+/* 1p标签的a标签 */
+
+.topbar .container p:first-child a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* 第二个p标签 */
+
+.topbar .container p:nth-child(2) {
+    margin-right: 5px;
+}
+
+
+/* 第二个p标签的标题和注册 */
+
+.topbar .container p:nth-child(2) .title,
+.topbar .container p:nth-child(2) .register {
+    color: orange;
+}
+
+
+/* 2p标签下的登录 */
+
+.topbar .container p:nth-child(2) .login {
+    color: white;
+}
+
+
+/* 乐购颜色 */
+
+.topbar .container p:nth-child(2) .legou {
+    color: orange;
+}
+
+
+/* 2.========== 导航 ========= */
+
+.nav {
+    height: 80px;
+    background-color: white;
+}
+
+
+/* 搜索购物车订单大容器 */
+
+.nav .search-shopcart-order {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+
+/* 搜索框 */
+
+.nav .search-shopcart-order .search-input {
+    width: 440px;
+    height: 35px;
+    background-color: orange;
+    margin-right: 38px;
+    position: relative;
+}
+
+
+/* 搜索图标span */
+
+.nav .search-shopcart-order .search-input span {
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url("../images/bgicon.png");
+}
+
+
+/* 搜索框 */
+
+.nav .search-shopcart-order .search-input .search {
+    width: 390px;
+    height: 31px;
+    border: 2px solid orange;
+    text-indent: 10px;
+    color: #ccc;
+    outline: none;
+}
+
+
+/* 购物车和订单 */
+
+.nav .search-shopcart-order .shopcart-order {
+    width: 200px;
+    height: 35px;
+    font-size: 0;
+}
+
+
+/* 购物车订单按钮 */
+
+.nav .search-shopcart-order .shopcart-order button {
+    width: 100px;
+    height: 35px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    font-size: 9px;
+    color: #333;
+}
+
+
+/* 购物车按钮 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) {
+    background-color: #ff6700;
+    color: white;
+}
+
+
+/* 购物车图标 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:first-child {
+    background-image: url("../images/gwc.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    margin-right: 3px;
+}
+
+
+/* 购物车文字 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(2) {
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+/* 数量文字 */
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(3) {
+    vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    margin-left: 15px;
+}
+
+
+/* 分类导航 */
+
+.nav .category-menu {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.nav .category-menu .left-logo {
+    width: 200px;
+    height: 30px;
+    position: relative;
+}
+
+.nav .category-menu .left-logo img {
+    position: absolute;
+    bottom: 0;
+    /* top: -83px; */
+    left: 0;
+}
+
+.nav .category-menu ul {
+    width: 1000px;
+    height: 30px;
+}
+
+.nav .category-menu ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* footer */
+
+.footer {
+    width: auto;
+    height: 472px;
+    margin-top: 50px;
+}
+
+#footerTop {
+    width: auto;
+    padding-top: 0%;
+    line-height: 50px;
+    height: 100px;
+    border-top: 6px solid #f60;
+    background: #f2f2f2;
+}
+
+#footerTop .container img {
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+#footerTop>div {
+    box-sizing: border-box;
+    padding: 24px 160px;
+}
+
+#footerMiddle>div {
+    width: 790px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+#footerMiddle ul {
+    margin-left: -50px;
+}
+
+#footerMiddle li {
+    width: 120px;
+    height: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#footerMiddle div img {
+    position: absolute;
+    right: -190px;
+}
+
+#footerMiddle li>a {
+    font-size: 16px;
+    color: #666;
+}
+
+#footerMiddle li>a.lia {
+    font-size: 18px;
+    color: #000;
+}
+
+#footerMiddle>p {
+    margin-top: 15px;
+    width: 890px;
+    height: 15px;
+    margin: 0 auto;
+    margin-left: 140px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#footerMiddle>p>a {
+    border-right: 1px solid #333;
+    float: left;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+#footerMiddle>p>a:not(:nth-of-type(2)) {
+    width: 100px;
+}
+
+#footerMiddle>p>a:last-of-type {
+    border-right: 0;
+}
+
+#footerMiddle>span {
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+    margin-left: 375px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #333;
+}
